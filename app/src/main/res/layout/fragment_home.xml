@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppColorBackground"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/home_appbar"
+        style="@style/ActionBarColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <ImageView
+                style="@style/GitHubLogo"
+                android:contentDescription="@string/github_logo"
+                android:src="@drawable/github_logo" />
+
+            <ImageView
+                style="@style/GitHubText"
+                android:contentDescription="@string/github_text"
+                android:src="@drawable/github_text_black" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_search"
+            android:focusable="true"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@null"
+            app:queryHint="@string/find_username"
+            app:showDividers="end" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/home_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/green_500" />
+
+    <include
+        android:id="@+id/waiting_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/include_placeholder_search" />
+
+    <include
+        android:id="@+id/not_found_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        layout="@layout/include_placeholder_not_found" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:listitem="@layout/item_user" />
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

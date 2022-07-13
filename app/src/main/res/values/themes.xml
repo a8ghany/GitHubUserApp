@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SubmissionBFAA" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <!-- Navigation bar color. -->
+        <item name="android:navigationBarColor">?attr/colorOnPrimary</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+    </style>
+
+    <!-- Custom theme. -->
+    <style name="ActionBarColor">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="AppColorBackground">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="GitHubLogo">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@color/black</item>
+    </style>
+
+    <style name="GitHubText">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@color/black</item>
+    </style>
+
+    <style name="TextImageColor">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@color/black</item>
+        <item name="android:tint">@color/black</item>
+    </style>
+
+    <style name="ImageSearch">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:src">@drawable/ic_people_search</item>
+    </style>
+
+    <style name="ImageNotFound">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:src">@drawable/ic_not_found</item>
+    </style>
+
+    <style name="ImageEmpty">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:src">@drawable/ic_empty</item>
+    </style>
+
+    <style name="TabLayout">
+        <item name="tabBackground">@color/white</item>
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="tabTextColor">@android:color/darker_gray</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+    </style>
+
+    <style name="BottomNav">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@drawable/color_selector</item>
+        <item name="itemTextColor">@drawable/color_selector</item>
+    </style>
+</resources>

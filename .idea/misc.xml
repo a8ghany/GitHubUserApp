@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1195" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable/bg_search.xml" value="0.1195" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable/color_selector.xml" value="0.1205" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable/favorite_selector.xml" value="0.1195" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable/home_selector.xml" value="0.1195" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1195" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/drawable/settings_selector.xml" value="0.1195" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/activity_detail.xml" value="0.12894736842105264" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/activity_splash.xml" value="0.12894736842105264" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/fragment_favorite.xml" value="0.12894736842105264" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/fragment_followers.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/fragment_following.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/fragment_home.xml" value="0.14" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/fragment_settings.xml" value="0.15" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/include_placeholder_empty.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/include_placeholder_not_found.xml" value="0.1" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/include_placeholder_search.xml" value="0.12894736842105264" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/layout/item_user.xml" value="0.12894736842105264" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1276872964169381" />
+        <entry key="..\:/Dev/Android Developer/Dicoding (Android Developer - Learning Path)/03 Belajar Fundamental Aplikasi Android/Submission/Submission 3/SubmissionBFAA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1195" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
