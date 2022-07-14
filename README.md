@@ -1,4 +1,4 @@
-# Submission-BFAA3-Dicoding
+# GitHub-DicodingBFAA
 
 Submission untuk kelas Belajar Fundamental Aplikasi Android di [Dicoding](https://www.dicoding.com). Bahasa yang digunakan adalah Kotlin. 
 Submission ini adalah sebuah aplikasi yang bertemakan GitHub User.
