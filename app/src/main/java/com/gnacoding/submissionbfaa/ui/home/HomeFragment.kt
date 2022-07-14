@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.gnacoding.submissionbfaa.R
-import com.gnacoding.submissionbfaa.data.Result
+import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.databinding.FragmentHomeBinding
 import com.gnacoding.submissionbfaa.utils.ViewStateCallback

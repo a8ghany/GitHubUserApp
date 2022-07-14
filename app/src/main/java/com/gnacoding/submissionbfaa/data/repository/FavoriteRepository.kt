@@ -3,7 +3,7 @@ package com.gnacoding.submissionbfaa.data.repository
 import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.gnacoding.submissionbfaa.data.Result
+import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.data.local.UserDao
 import com.gnacoding.submissionbfaa.data.local.UserDatabase

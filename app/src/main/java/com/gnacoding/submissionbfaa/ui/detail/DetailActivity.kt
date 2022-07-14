@@ -8,7 +8,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.gnacoding.submissionbfaa.R
-import com.gnacoding.submissionbfaa.data.Result
+import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.databinding.ActivityDetailBinding
 import com.gnacoding.submissionbfaa.utils.ViewStateCallback
