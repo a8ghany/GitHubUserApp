@@ -13,8 +13,9 @@ agar dapat membantu teman-teman dalam menyelesaikan submission yang sedang diker
 - [Glide](https://github.com/bumptech/glide)
 - [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
-## Screenshot
-Coming soon
+## Preview
+<img src="https://user-images.githubusercontent.com/73926625/178882716-15c2ad16-9663-46c2-8267-1d0791508acc.png" width="70%">
+<img src="https://user-images.githubusercontent.com/73926625/178882798-8bbb80b9-a6d5-4263-a2db-e7d9e5368b77.png" width="70%">
 
 ## If you want to clone this app
 You need to update GitHub token in Constants class at com.gnacoding.submissionbfaa.utils
