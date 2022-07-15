@@ -40,14 +40,14 @@ android {
     defaultConfig {
         ...
         Properties properties = new Properties()
-        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
 
-        buildConfigField("String", "GITHUB_TOKEN", "\"${properties.getProperty('GITHUB_TOKEN')}\"")
+        buildConfigField "String", "GITHUB_TOKEN", "\"${properties.getProperty('GITHUB_TOKEN')}\""
     }
     ...
 }
 ```
-Last, you can access it in Constants.kt
+Don't forget to sync the gradle and rebuild the project. Last, you can access it in Constants.kt
 ```
 object Constants {
     const val GITHUB_TOKEN = BuildConfig.GITHUB_TOKEN
