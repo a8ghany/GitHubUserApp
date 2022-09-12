@@ -11,7 +11,9 @@ import com.gnacoding.submissionbfaa.R
 import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.databinding.ActivityDetailBinding
+import com.gnacoding.submissionbfaa.adapter.SectionsPagerAdapter
 import com.gnacoding.submissionbfaa.utils.ViewStateCallback
+import com.gnacoding.submissionbfaa.viewmodel.DetailViewModel
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

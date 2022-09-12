@@ -1,4 +1,4 @@
-package com.gnacoding.submissionbfaa.ui.settings
+package com.gnacoding.submissionbfaa.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*

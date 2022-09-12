@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.gnacoding.submissionbfaa.databinding.FragmentSettingsBinding
+import com.gnacoding.submissionbfaa.viewmodel.SettingsViewModel
 
 class SettingsFragment : Fragment() {
 

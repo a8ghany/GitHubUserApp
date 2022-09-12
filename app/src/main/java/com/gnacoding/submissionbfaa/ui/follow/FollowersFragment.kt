@@ -10,13 +10,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.databinding.FragmentFollowersBinding
-import com.gnacoding.submissionbfaa.ui.home.HomeAdapter
+import com.gnacoding.submissionbfaa.adapter.UserAdapter
 import com.gnacoding.submissionbfaa.utils.Constants.ARG_USERNAME
 import com.gnacoding.submissionbfaa.utils.ViewStateCallback
+import com.gnacoding.submissionbfaa.viewmodel.FollowViewModel
 
 class FollowersFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
 
-    private lateinit var followersAdapter: HomeAdapter
+    private lateinit var followersAdapter: UserAdapter
 
     private var _followersBinding: FragmentFollowersBinding? = null
     private val followersBinding get() = _followersBinding!!
@@ -34,7 +35,7 @@ class FollowersFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
         super.onViewCreated(view, savedInstanceState)
 
         val username = arguments?.getString(ARG_USERNAME).toString()
-        followersAdapter = HomeAdapter()
+        followersAdapter = UserAdapter()
 
         followersViewModel.getFollowers(username).observe(viewLifecycleOwner) {
             when (it) {

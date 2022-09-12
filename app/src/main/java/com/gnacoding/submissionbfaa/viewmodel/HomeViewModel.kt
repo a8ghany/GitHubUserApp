@@ -1,4 +1,4 @@
-package com.gnacoding.submissionbfaa.ui.home
+package com.gnacoding.submissionbfaa.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.gnacoding.submissionbfaa.data.repository.SearchRepository

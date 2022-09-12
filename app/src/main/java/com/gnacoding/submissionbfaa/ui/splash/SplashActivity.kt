@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import com.gnacoding.submissionbfaa.databinding.ActivitySplashBinding
 import com.gnacoding.submissionbfaa.ui.MainActivity
+import com.gnacoding.submissionbfaa.viewmodel.SplashViewModel
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {

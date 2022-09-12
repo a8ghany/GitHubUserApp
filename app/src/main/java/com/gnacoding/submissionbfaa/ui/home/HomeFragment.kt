@@ -12,11 +12,13 @@ import com.gnacoding.submissionbfaa.R
 import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.databinding.FragmentHomeBinding
+import com.gnacoding.submissionbfaa.adapter.UserAdapter
 import com.gnacoding.submissionbfaa.utils.ViewStateCallback
+import com.gnacoding.submissionbfaa.viewmodel.HomeViewModel
 
 class HomeFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
 
-    private lateinit var homeAdapter: HomeAdapter
+    private lateinit var userAdapter: UserAdapter
     private lateinit var userQuery: String
 
     private var _homeBinding: FragmentHomeBinding? = null
@@ -35,12 +37,12 @@ class HomeFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        homeAdapter = HomeAdapter()
+        userAdapter = UserAdapter()
 
         homeBinding.rvHome.apply {
             layoutManager = LinearLayoutManager(context)
             setHasFixedSize(true)
-            adapter = homeAdapter
+            adapter = userAdapter
         }
 
         searchUser()
@@ -71,7 +73,7 @@ class HomeFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
     }
 
     override fun onSuccess(data: List<UserEntity>) {
-        homeAdapter.setData(data)
+        userAdapter.setData(data)
         homeBinding.homeProgressBar.visibility = View.GONE
         homeBinding.notFoundLayout.homeNotFound.visibility = View.GONE
         homeBinding.waitingSearchLayout.searchEmpty.visibility = View.GONE

@@ -1,4 +1,4 @@
-package com.gnacoding.submissionbfaa.ui.home
+package com.gnacoding.submissionbfaa.adapter
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -12,7 +12,7 @@ import com.gnacoding.submissionbfaa.databinding.ItemUserBinding
 import com.gnacoding.submissionbfaa.ui.detail.DetailActivity
 import com.gnacoding.submissionbfaa.ui.detail.DetailActivity.Companion.EXTRA_DATA
 
-class HomeAdapter : RecyclerView.Adapter<HomeAdapter.HomeViewHolder>() {
+class UserAdapter : RecyclerView.Adapter<UserAdapter.HomeViewHolder>() {
 
     private val listUser = ArrayList<UserEntity>()
 

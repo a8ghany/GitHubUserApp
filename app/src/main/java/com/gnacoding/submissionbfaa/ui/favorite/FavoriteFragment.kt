@@ -10,15 +10,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.gnacoding.submissionbfaa.utils.Result
 import com.gnacoding.submissionbfaa.data.model.UserEntity
 import com.gnacoding.submissionbfaa.databinding.FragmentFavoriteBinding
-import com.gnacoding.submissionbfaa.ui.home.HomeAdapter
+import com.gnacoding.submissionbfaa.adapter.UserAdapter
 import com.gnacoding.submissionbfaa.utils.ViewStateCallback
+import com.gnacoding.submissionbfaa.viewmodel.FavoriteViewModel
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class FavoriteFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
 
-    private lateinit var favoriteAdapter: HomeAdapter
+    private lateinit var favoriteAdapter: UserAdapter
 
     private var _favoriteBinding: FragmentFavoriteBinding? = null
     private val favoriteBinding get() = _favoriteBinding!!
@@ -36,7 +37,7 @@ class FavoriteFragment : Fragment(), ViewStateCallback<List<UserEntity>> {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        favoriteAdapter = HomeAdapter()
+        favoriteAdapter = UserAdapter()
 
         favoriteBinding.rvFavorite.apply {
             layoutManager = LinearLayoutManager(context)

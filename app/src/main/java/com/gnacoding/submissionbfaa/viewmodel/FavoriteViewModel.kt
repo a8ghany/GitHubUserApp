@@ -1,4 +1,4 @@
-package com.gnacoding.submissionbfaa.ui.favorite
+package com.gnacoding.submissionbfaa.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
