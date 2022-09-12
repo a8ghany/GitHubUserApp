@@ -1,4 +1,4 @@
-# Submission-BFAA3-Dicoding
+# GitHub-DicodingBFAA
 
 Submission untuk kelas Belajar Fundamental Aplikasi Android di [Dicoding](https://www.dicoding.com). Bahasa yang digunakan adalah Kotlin. 
 Submission ini adalah sebuah aplikasi yang bertemakan GitHub User.
@@ -13,8 +13,9 @@ agar dapat membantu teman-teman dalam menyelesaikan submission yang sedang diker
 - [Glide](https://github.com/bumptech/glide)
 - [CircleImageView](https://github.com/hdodenhof/CircleImageView)
 
-## Screenshot
-Coming soon
+## Preview
+<img src="https://user-images.githubusercontent.com/73926625/178882716-15c2ad16-9663-46c2-8267-1d0791508acc.png">
+<img src="https://user-images.githubusercontent.com/73926625/178882798-8bbb80b9-a6d5-4263-a2db-e7d9e5368b77.png">
 
 ## If you want to clone this app
 You need to update GitHub token in Constants class at com.gnacoding.submissionbfaa.utils
@@ -39,14 +40,14 @@ android {
     defaultConfig {
         ...
         Properties properties = new Properties()
-        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
 
-        buildConfigField("String", "GITHUB_TOKEN", "\"${properties.getProperty('GITHUB_TOKEN')}\"")
+        buildConfigField "String", "GITHUB_TOKEN", "\"${properties.getProperty('GITHUB_TOKEN')}\""
     }
     ...
 }
 ```
-Last, you can access it in Constants.kt
+Don't forget to sync the gradle and rebuild the project. Last, you can access it in Constants.kt
 ```
 object Constants {
     const val GITHUB_TOKEN = BuildConfig.GITHUB_TOKEN
