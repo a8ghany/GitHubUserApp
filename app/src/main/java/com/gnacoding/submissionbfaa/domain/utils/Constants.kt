@@ -3,7 +3,7 @@ package com.gnacoding.submissionbfaa.domain.utils
 import androidx.datastore.preferences.core.booleanPreferencesKey
 
 object Constants {
-    const val GITHUB_TOKEN = "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"
+    const val GITHUB_TOKEN = "put_your_github_token_here"
     const val BASE_URL = "https://api.github.com/"
 
     const val DATA_STORE_NAME = "settings"
