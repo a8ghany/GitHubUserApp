@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/AppColorBackground"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".presentation.screen.home.HomeFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/home_appbar"
@@ -62,14 +62,14 @@
         android:id="@+id/waiting_search_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        layout="@layout/include_placeholder_search" />
+        layout="@layout/placeholder_search" />
 
     <include
         android:id="@+id/not_found_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
-        layout="@layout/include_placeholder_not_found" />
+        layout="@layout/placeholder_not_found" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

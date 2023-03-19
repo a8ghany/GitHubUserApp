@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/AppColorBackground"
-    tools:context=".ui.favorite.FavoriteFragment">
+    tools:context=".presentation.screen.favorite.FavoriteFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/favorite_appbar"
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
-        layout="@layout/include_placeholder_empty" />
+        layout="@layout/placeholder_empty" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"

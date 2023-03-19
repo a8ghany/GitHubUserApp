@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/AppColorBackground"
-    tools:context=".ui.follow.FollowersFragment">
+    tools:context=".presentation.screen.detail.follow.FollowersFragment">
 
     <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progress_bar_followers"

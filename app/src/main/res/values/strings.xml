@@ -9,6 +9,7 @@
     <string name="repository">Repositories</string>
     <string name="followers">Followers</string>
     <string name="following">Following</string>
+    <string name="tab_layout_content_desc">Followers and Following Tab</string>
     <string name="find_username">Find Username</string>
 
     <string name="favorite">Favorite</string>
@@ -20,7 +21,7 @@
     <string name="dark_mode">Dark Mode</string>
     <string name="about">About app</string>
     <string name="about_app">This app was made to fulfill submission assignments in the BFAA class at dicoding.com. The purpose of this application is to implement several components such as Network using Retrofit, Local Database using Room, Dark Mode using Data Store, etc. You can use the source code of this app as reference material.</string>
-    <string name="copyright">Copyright © 2021 Abdul Ghany At-Tirmidzi</string>
+    <string name="copyright">Copyright © 2023 Abdul Ghany At-Tirmidzi</string>
 
     <string name="placeholder_not_found">User Not Found</string>
     <string name="placeholder_title">Waiting to search!</string>
@@ -36,5 +37,5 @@
     <string name="example_following">2</string>
     <string name="example_location">Location</string>
     <string name="example_company">Company</string>
-    <string name="btn_share">Btn Share</string>
+    <string name="btn_share">Button Share</string>
 </resources>
